@@ -1,0 +1,31 @@
+print("Salut, raspunde la urmatoarele intrebari: ")
+nume = input("Cum te numesti? ")
+varsta = int(input("Cati ani ai? "))
+k=100
+m=2020
+
+varsta1= int(varsta) - k
+varsta2= abs(varsta1) + m
+print("1 persoana identificata mai raman 2 persoane")
+
+nume1 = input("Cum te numesti? ")
+varsta3 = int(input("Cati ani ai? "))
+
+varsta4= int(varsta3) - k
+varsta5= abs(varsta4) + m
+print("2 persoane identificate mai raman 1 persoana")
+
+nume2 = input("Cum te numesti? ")
+varsta6 = int(input("Cati ani ai? "))
+
+varsta7= int(varsta6) - k
+varsta8= abs(varsta7) + m
+print("Iata rezultatele:")
+
+print("Persoana cu numele " + nume + ", care are " + str(varsta) + " ani \n Va face 100 ani in anul " + str(varsta2) + "\n")
+
+print("Persoana cu numele " + nume1 + ", care are " + str(varsta3) + " ani \n Va face 100 ani in anul " + str(varsta5) + "\n")
+
+print("Persoana cu numele " + nume2 + ", care are " + str(varsta6) + " ani \n Va face 100 ani in anul " + str(varsta8) + "\n")
+
+input('Press ENTER to exit')
